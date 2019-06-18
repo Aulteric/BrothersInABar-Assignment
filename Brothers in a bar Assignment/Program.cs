@@ -9,26 +9,29 @@ namespace Brothers_In_A_Bar_Assignment
         public static List<int> InputValidator()
         {
             var temp = Console.ReadLine().Split(new[] { ',' }, StringSplitOptions.RemoveEmptyEntries).ToArray();
-            var ParsedInput = new List<int>();
+            var parsedInput = new List<int>();
+
             for (int i = 0; i < temp.Length; i++)
             {
                 int Value;
                 if (int.TryParse(temp[i], out Value))
                 {
-                    ParsedInput.Add(Value);
+                    parsedInput.Add(Value);
                 }
                 else
                 {
                     Console.WriteLine($"{temp[i]} is not a valid integer");
-                    ParsedInput = InputValidator();
+                    parsedInput = InputValidator();
                 }
             }
-            return ParsedInput;
+
+            return parsedInput;
         }
 
         private static int MaxRoundOfDrinks(List<int> glasses)
         {
             int counterOfRounds = 0;
+
             for (int i = 0; i < glasses.Count - 2; i++)
             {
                 if (glasses[i] == glasses[i+1] && glasses[i] == glasses[i + 2])
@@ -38,6 +41,7 @@ namespace Brothers_In_A_Bar_Assignment
                     i = 0;
                 }
             }
+
             return counterOfRounds;
         }
 
