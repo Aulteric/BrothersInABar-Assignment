@@ -28,21 +28,22 @@ namespace Brothers_In_A_Bar_Assignment
 
         private static int MaxRoundOfDrinks(List<int> glasses)
         {
-            int CounterOfRounds = 0;
+            int counterOfRounds = 0;
             for (int i = 0; i < glasses.Count - 2; i++)
             {
                 if (glasses[i] == glasses[i+1] && glasses[i] == glasses[i + 2])
                 {
-                    CounterOfRounds++;
+                    counterOfRounds++;
                     glasses.RemoveRange(i, 3);
                     i = 0;
                 }
             }
-            return CounterOfRounds;
+            return counterOfRounds;
         }
 
         static void Main(string[] args)
         {
+            Console.WriteLine("Insert an array of integers: ");
             var glasses = InputValidator();
             Console.WriteLine($"The maximum number of drinks that the brothers can drink is {MaxRoundOfDrinks(glasses)}");           
         }
