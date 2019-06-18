@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Brothers_in_a_bar_Assignment
+namespace Brothers_In_A_Bar_Assignment
 {
     class Program
     {
@@ -40,6 +40,7 @@ namespace Brothers_in_a_bar_Assignment
             }
             return CounterOfRounds;
         }
+
         static void Main(string[] args)
         {
             var glasses = InputValidator();

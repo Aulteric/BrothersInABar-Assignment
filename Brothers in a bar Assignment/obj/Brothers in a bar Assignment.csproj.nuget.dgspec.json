@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Visual Studio 2019\\Repos\\Brothers in a bar Assignment\\Brothers in a bar Assignment\\Brothers in a bar Assignment.csproj": {}
+    "C:\\Visual Studio 2019\\Repos\\Brothers in a bar Assignment\\Brothers in a bar Assignment\\Brothers In A Bar Assignment.csproj": {}
   },
   "projects": {
-    "C:\\Visual Studio 2019\\Repos\\Brothers in a bar Assignment\\Brothers in a bar Assignment\\Brothers in a bar Assignment.csproj": {
+    "C:\\Visual Studio 2019\\Repos\\Brothers in a bar Assignment\\Brothers in a bar Assignment\\Brothers In A Bar Assignment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Visual Studio 2019\\Repos\\Brothers in a bar Assignment\\Brothers in a bar Assignment\\Brothers in a bar Assignment.csproj",
-        "projectName": "Brothers in a bar Assignment",
-        "projectPath": "C:\\Visual Studio 2019\\Repos\\Brothers in a bar Assignment\\Brothers in a bar Assignment\\Brothers in a bar Assignment.csproj",
+        "projectUniqueName": "C:\\Visual Studio 2019\\Repos\\Brothers in a bar Assignment\\Brothers in a bar Assignment\\Brothers In A Bar Assignment.csproj",
+        "projectName": "Brothers In A Bar Assignment",
+        "projectPath": "C:\\Visual Studio 2019\\Repos\\Brothers in a bar Assignment\\Brothers in a bar Assignment\\Brothers In A Bar Assignment.csproj",
         "packagesPath": "C:\\Users\\aulte\\.nuget\\packages\\",
         "outputPath": "C:\\Visual Studio 2019\\Repos\\Brothers in a bar Assignment\\Brothers in a bar Assignment\\obj\\",
         "projectStyle": "PackageReference",

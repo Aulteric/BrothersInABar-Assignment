@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.1": {
-      "Brothers in a bar Assignment/1.0.0": {
+      "Brothers In A Bar Assignment/1.0.0": {
         "runtime": {
-          "Brothers in a bar Assignment.dll": {}
+          "Brothers In A Bar Assignment.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Brothers in a bar Assignment/1.0.0": {
+    "Brothers In A Bar Assignment/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
